@@ -25,7 +25,14 @@ html {
     .top-nav-collapse {
         padding: 0;
         background-color:#f8f8f8;
-        border-color:#e7e7e7
+        border-color:#e7e7e7;
+    }
+}
+
+@media(max-device-width : 480px) {
+/* Styles */
+    .navbar {
+        display: none;
     }
 }
 
